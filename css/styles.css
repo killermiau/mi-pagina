@@ -3,8 +3,14 @@
   padding: 0px;
 }
 
-body {
+.body-home {
   background: url(../img/goingmarry.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.body-lol {
+  background: url(../img/league\ of\ legends.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -36,7 +42,7 @@ header {
     text-decoration: none;
 }
 header nav ul li a:hover {
-  background-color: #ff4800d8;
+  background-color: #ec59aad8;
 }
 .dropdown .dropbtn {
   font-size: 20px;  
@@ -49,7 +55,7 @@ header nav ul li a:hover {
   font-family: monospace;
   }
   .dropbtn:hover {
-    background-color: #ff4800d8;
+    background-color: #ec59aad8;
   }
   .dropdown-content {
     display: none;
@@ -68,7 +74,7 @@ header nav ul li a:hover {
     text-align: left;
   }
   .dropdown-content a:hover {
-    background-color: #ff4800d8;
+    background-color: #ec59aad8;
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -264,7 +270,12 @@ header nav ul li a:hover {
         text-shadow: 4px 4px #000000 ; 
       }
     }
+  
+footer {
+  position: relative;
+  top: 1000px;
 
+}
   
     
    
